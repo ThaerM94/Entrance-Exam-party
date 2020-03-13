@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets lovers</title>
+
+    <!-- the resrt stylesheet file -->
+    <link rel="stylesheet" href="../css/reset.css">
+
+    <!-- the main style for all pages -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- the style file for the contact page -->
+    <link rel="stylesheet" href="../css/contact-style.css">
+</head>
+
+<body>
+
+
+    <!-- start the header tag -->
+    <header>
+        <section id="logoImg">
+            <img src="../img/home/logo.png" alt="logo pet">
+        </section>
+        <h1>
+            Pets lovers
+        </h1>
+
+    </header>
+    <!-- end the header tag -->
+
+
+
+    <!-- start the nav tag -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/store.html">Store</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- end the nav tag -->
+
+
+
+    <!-- start the main tag -->
+    <main>
+
+        <!--  the button which scroll down to the footer -->
+        <button id="down" onclick="window.scrollTo(0, 10000000000000000);"> Down</button>
+
+
+        <!-- form contains the user info  -->
+
+        <form id="contactInfo">
+            <fieldset>
+                <legend>contact us</legend>
+                <label for="Fname" >First name</label>
+                <input type="text" id="Fname" required>
+                <label for="Lname" >last name</label>
+                <input type="text" id="Lname" required>
+                <label >password</label>
+                <input type="password" required>
+                <textarea name="your bio"  cols="30" rows="10" placeholder="your bio"></textarea>
+                <input type="submit">
+
+            </fieldset>
+        </form>
+
+
+        <!--  the button which scroll up to the header -->
+        <button id="up" onclick="window.scrollTo(0, 0);">up</button>
+
+    </main>
+    <!-- end the main tag -->
+
+
+
+
+    <!-- start the footer tag  -->
+    <footer>
+
+        <!-- social media links -->
+        <ul>
+            <li><a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="../img/home/fbl.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/"><img src="../img/home/twit-logo.png" alt="twitter"></a></li>
+            <li><a href="https://www.pinterest.com/"><img src="../img/home/pat-logo.png" alt="pintrest"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="../img/home/yt-logo.png" alt="youtube"></a></li>
+        </ul>
+
+        <!-- copyrights -->
+        <span> &copy;copyrights are reserved for pets lovers</span>
+    </footer>
+    <!-- end the footer tag -->
+
+
+    <!-- the javascript file -->
+    <script src="../js/contact-script.js"></script>
+</body>
+
+</html>
