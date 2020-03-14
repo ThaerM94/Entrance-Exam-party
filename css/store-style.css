@@ -1,0 +1,87 @@
+/* *********************************start store page style for main tag************************************ */
+
+    /********************* start styling the store section *******************/
+
+        #petsImgs{
+            width: 60%;
+            margin: 30px auto;
+            text-align: center;
+            overflow: hidden;
+            border-radius: 5%;
+            background-color: #D295BF;
+            border: 4px solid rgb(179, 47, 161);
+            box-shadow: 7px 7px 7px rgb(226, 47, 161);
+            
+        }
+        #petsImgs div{
+            width: 33.333333333333%;
+            float: left;
+            display: block;
+            padding: 15px 0px;
+            
+        }
+
+
+        #petsImgs div img{
+            width: 200px;
+            height: 200px;
+        }
+        #petsImgs div button{
+            margin-top: 30px;
+            width: 100px;
+            padding: 10px;
+            background-color:#411632 ;
+            color: rgb(243, 131, 243);
+
+        }
+
+        #petsImgs div button:hover{
+            opacity: .7;
+        }
+
+    /********************* end styling the store section *******************/
+
+    /********************* start styling the cart section *******************/
+        #petscart{
+            width: 60%;
+            margin: 30px auto;
+            text-align: center;
+            overflow: hidden;
+            border-radius: 5%;
+            background-color: #D295BF;
+            
+            box-shadow: 7px 7px 7px rgb(226, 47, 161);
+            
+        }
+        #petscart div{
+            width: 33.333333333333%;
+            float: left;
+            display: block;
+            padding: 15px 0px;
+            text-align: center;
+            
+        }
+
+
+        #petscart div img{
+            width: 200px;
+            height: 200px;
+        }
+
+        #petscart div span{
+            display: block;
+            width: 100px;
+            margin: 5px auto;
+            padding: 5px;
+            background-color:#411632 ;
+            color: rgb(243, 131, 243);
+            font-size: 25px;
+            text-align: center;
+
+        }
+
+    /********************* end styling the cart section *******************/
+
+
+
+/* *********************************end store page style for main tag************************************ */

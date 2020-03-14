@@ -1,3 +1,158 @@
-body{
-    background-color: yellowgreen;
-}
+/* ***********************************start header style********************************************* */
+    header{
+        
+        padding: 10px;
+        height: 250px;
+        background-color: rgb(16, 5, 17);
+    }
+
+    /******************** start logo section ******************/
+    #logoImg{
+        width: 20%;
+        float: left;
+        text-align: center;
+        margin: 43px 0px;
+    }
+    /* ******start logo image****** */
+
+    #logoImg img{
+        width: 135px;
+    }
+
+    /* ******end logo image****** */
+
+    /********************* end logo section *******************/
+
+    /********* start header title **********/
+    header h1 {
+        width: 80%;
+        float: right;
+        margin: 73px 0px;
+        text-align: center;
+        font-size: 75px;
+        font-weight: 700;
+        color: rgb(243, 131, 243);
+
+    }
+
+    /********** end header title ***********/
+
+/* ******************************************end header style********************************************* */
+
+/* *******************************************start nav style********************************************* */
+    nav{
+        clear: both;
+        background-color: #411632;
+        padding: 17px 0px;
+        position: sticky;
+        top: 0px;
+    }
+    /********************* start ul nav *******************/
+    nav ul li{
+        display: inline-block;
+        margin: 0px 13%;
+    }
+    nav ul li a{
+        font-size: 35px;
+        color: rgb(243, 131, 243);
+        font-weight: 600;
+        text-decoration: none;
+
+    }
+    nav ul li:hover{
+        background-color: rgb(196, 79, 172);
+    }
+
+    /********************* start ul nav *******************/
+
+/* *********************************************end nav style********************************************* */
+
+
+/* ******************************************start main style********************************************* */
+
+    main{
+        background-color: #FFDBF3;
+        padding: 20px ;
+        overflow: hidden;
+    }
+    /********************* start button down *******************/
+        #down{
+            display: block;
+            float: right; 
+            width: 70px;
+            padding: 10px;
+            background-color:#411632 ;
+            color: rgb(243, 131, 243);
+
+
+        }
+        #down:hover{
+            opacity: .7;
+        }
+    
+    /********************* end button down *******************/
+
+    /********************* start sections clear *******************/
+
+        #homeCont,#contactInfo,#petsImgs{
+            clear: both;
+        }
+    
+    /********************* end sections clear *******************/
+
+
+    /********************* start button up *******************/
+        #up{
+            clear: both;
+            display: block;
+            float: right;
+            width: 70px;
+            padding: 10px;
+            background-color:#411632 ;
+            color: rgb(243, 131, 243);
+
+        }
+        #up:hover{
+            opacity: .7;
+        }
+
+    /********************* end button up *******************/
+
+/* **********************************************end main style********************************************* */
+
+
+/* ******************************************start footer style********************************************* */
+
+        footer{
+            background-color: #411632;
+            clear: both;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        
+        footer ul li{
+            display: inline-block;
+            margin: 0px 4%;
+        }
+        footer ul li a img{
+            width: 60px;
+        }
+        footer ul li a img:hover{
+            opacity: .7;
+        }
+
+        footer span{
+            margin-top: 44px ;
+            display: block;
+            color: rgb(243, 131, 243);
+        }
+
+
+/* *****************************************start footer style********************************************* */
+
+
+
+
+
+  
+
