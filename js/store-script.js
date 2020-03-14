@@ -30,14 +30,16 @@ var containerStorePage = document.getElementById('petsImgs')
 function runderHomePage() {
 
     for (var x = 0; x < animals.length; x++) {
+        var contImg = document.createElement('div');
+        containerStorePage.appendChild(contImg)
         var imgMessage = document.createElement('img');
-        containerStorePage.appendChild(imgMessage)
+        contImg.appendChild(imgMessage)
         imgMessage.setAttribute('src', AnimalsImg.all[x].imgPath);
         imgMessage.setAttribute('alt', AnimalsImg.all[x].name);
         imgMessage.setAttribute('title', AnimalsImg.all[x].name);
         var addPet = document.createElement('button');
-        containerStorePage.appendChild(addPet);
-        addPet.textContent = 'add to cart';
+        contImg.appendChild(addPet);
+        addPet.textContent = 'Add to cart';
         addPet.setAttribute('id', AnimalsImg.all[x].name)
     }
 
@@ -90,14 +92,15 @@ var containerCart = document.getElementById('petscart')
 function runderCart() {
     
     for (var x = 0; x < animals.length; x++) {
-
+        var contcartImg = document.createElement('div');
+        containerCart.appendChild(contcartImg)
         var imgCart = document.createElement('img');
-        containerCart.appendChild(imgCart)
+        contcartImg.appendChild(imgCart)
         imgCart.setAttribute('src', chosenPet[x].imgPath);
         imgCart.setAttribute('alt', chosenPet[x].name);
         imgCart.setAttribute('title', chosenPet[x].name);
         var namePet = document.createElement('span');
-        containerCart.appendChild(namePet);
+        contcartImg.appendChild(namePet);
         namePet.textContent = chosenPet[x].name;
         
     }
