@@ -14,7 +14,7 @@ If you are looking for a new pet, please remember that their future health and h
 They will look to you for love, care and attention every day for many years to come. Please be sure you can provide this.`; 
 var imgMessage = document.createElement('img');
 containerHomePage.appendChild(imgMessage)
-imgMessage.setAttribute('src', '../img/home/cat-title1.png' );
+imgMessage.setAttribute('src', `../img/home/cat-title1.png` );
 imgMessage.setAttribute('alt',`cat title` );
 
 
